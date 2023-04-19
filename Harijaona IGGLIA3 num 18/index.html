@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="score">
+        <p>Vous</p>
+        <p>Ordinateur</p>
+        <p id="score-joueur">0</p>
+        <p id="score-pc">0</p>
+        <div id="reset">Recommencer</div>
+    </div>
+    <div class="action">
+        <p id="message">A vous de jouer!</p>
+        <div id="next">Tour suivant</div>
+    </div>
+    <div class="jeu">
+        
+        <div class="choix">
+            <div class="button btn-joueur" id="pierre">
+                <img src="./img/pierre.png" alt="pierre">
+                <p>Pierre</p>
+            </div>
+
+            <div class="button btn-joueur" id="papier">
+                <img src="./img/papier.png" alt="papier">
+                <p>Papier</p>
+            </div>
+
+            <div class="button btn-joueur" id="ciseaux">
+                <img src="./img/ciseaux.png" alt="ciseaux">
+                <p>ciseaux</p>
+            </div>
+            
+        </div>
+
+        <div class="choix">
+            <div class="button btn-ordi" id="opierre">
+                <img src="./img/pierre.png" alt="pierre">
+                <p>Pierre</p>
+            </div>
+
+            <div class="button btn-ordi" id="opapier">
+                <img src="./img/papier.png" alt="papier">
+                <p>Papier</p>
+            </div>
+
+            <div class="button btn-ordi" id="ociseaux">
+                <img src="./img/ciseaux.png" alt="ciseaux">
+                <p>ciseaux</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
